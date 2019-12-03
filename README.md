@@ -1,5 +1,5 @@
-Project stm32f103c8t6
----------------------
+Project stm32f103c8t6 (update FreeRTOS to version 10.2.x)
+---------------------------------------------------------
 
 This is the source code for the book:
 
