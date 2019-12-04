@@ -118,6 +118,10 @@ must be set in the compiler's include path. */
 	#define portBYTE_ALIGNMENT_MASK	( 0x0000 )
 #endif
 
+#ifndef portHAS_STACK_OVERFLOW_CHECKING
+        #define portHAS_STACK_OVERFLOW_CHECKING 0
+#endif
+
 #ifndef portBYTE_ALIGNMENT_MASK
 	#error "Invalid portBYTE_ALIGNMENT definition"
 #endif
